@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Adjust based on your design */
+}
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the content */
+}
+
+header {
+    background: #333; /* Adjust color */
+    color: #fff; /* Text color */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    position: relative;
+    text-align: center;
+}
+
+#hero img {
+    width: 100%; /* Responsive image */
+}
+
+main {
+    display: flex;
+    justify-content: space-around; /* Adjust layout */
+    margin: 20px 0;
+}
+
+.info {
+    background: #fff; /* Section background */
+    padding: 20px;
+    margin: 10px;
+    flex: 1; /* Allow sections to grow */
+}
+
+footer {
+    background: #333; /* Adjust color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
